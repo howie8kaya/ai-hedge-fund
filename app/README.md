@@ -14,7 +14,7 @@ The AI Hedge Fund consists of:
 ## Table of Contents
 
 - [🚀 Quick Start (For Non-Technical Users)](#-quick-start-for-non-technical-users)
-  - [Option 1: Using 1-Line-1-using-1-line-shell-script-recommended)
+  - [Option 1: Using 1-Line Shell Script (Recommended)](#option-1-using-1-line-shell-script-recommended)
   - [Option 2: Using npm (Alternative)](#option-2-using-npm-alternative)
 - [🛠️ Manual Setup (For Developers)](#️-manual-setup-for-developers)
   - [Prerequisites](#prerequisites)
@@ -106,3 +106,5 @@ GROQ_API_KEY=your-groq-api-key
 # For getting financial data
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
+
+> **Note:** At minimum you need either `OPENAI_API_KEY` or `GROQ_API_KEY` to run the agents. `FINANCIAL_DATASETS_API_KEY` is required for fetching real stock data — without it you'll only be able to use the sample/mock data.
